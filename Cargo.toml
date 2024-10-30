@@ -2,10 +2,10 @@
 name = "drift"
 version = "2.92.0"
 edition = "2021"
-license = "false"
+license = "..."
 keywords = ["drift", "drift exchange", "drift-rs"]
-description = "false"
-homepage = "false"
+description = "..."
+homepage = "..."
 repository = "https://github.com/mshizzle13/drift"
 readme = "README.md"
 
