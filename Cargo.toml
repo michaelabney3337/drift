@@ -3,11 +3,11 @@ name = "drift"
 version = "2.92.0"
 edition = "2021"
 license = "..."
-keywords = ["drift", "drift exchange", "drift-rs"]
-description = "..."
-homepage = "..."
 repository = "https://github.com/mshizzle13/drift"
+keywords = ["drift", "drift exchange", "drift-rs"]
 readme = "README.md"
+description = "this is a description"
+homepage = "app.drift.trade"
 
 [dependencies]
 anchor-gen = {version = "0.3.1"}
