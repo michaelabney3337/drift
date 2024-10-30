@@ -2,12 +2,14 @@
 name = "drift"
 version = "2.92.0"
 edition = "2021"
-license = "..."
-repository = "https://github.com/mshizzle13/drift"
-keywords = ["drift", "drift exchange", "drift-rs"]
+description = "anchor-gen generated crate for interacting with drift program"
 readme = "README.md"
-description = "this is a description"
-homepage = "app.drift.trade"
+repository = "https://github.com/mshizzle13/drift"
+license = "MIT OR Apache-2.0"
+keywords = ["drift", "drift exchange", "drift-rs"]
+categories = ["finance", "cryptography::cryptocurrencies"]
+build = "build.rs"
+
 
 [dependencies]
 anchor-gen = {version = "0.3.1"}
