@@ -8,8 +8,6 @@ repository = "https://github.com/mshizzle13/drift"
 license = "MIT OR Apache-2.0"
 keywords = ["drift", "drift exchange", "drift-rs"]
 categories = ["finance", "cryptography::cryptocurrencies"]
-build = "build.rs"
-
 
 [dependencies]
 anchor-gen = {version = "0.3.1"}
