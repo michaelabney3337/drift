@@ -7,7 +7,7 @@ description = "anchor-gen generated crate for interacting with drift program"
 readme = "README.md"
 homepage = "https://github.com/mshizzle13/drift"
 repository = "https://github.com/mshizzle13/drift"
-keywords = ["drift", "drift exchange", "drift-rs"]
+keywords = ["drift"]
 categories = ["finance", "cryptography::cryptocurrencies"]
 
 [dependencies]
