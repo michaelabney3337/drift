@@ -13,7 +13,6 @@ categories = ["finance", "cryptography::cryptocurrencies"]
 [lib]
 crate-type = ["cdylib", "lib"]
 name = "drift"
-path = "src/lib.rs"
 
 [features]
 default = ["cpi"]
