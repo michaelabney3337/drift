@@ -11,8 +11,13 @@ keywords = ["drift"]
 categories = ["finance", "cryptography::cryptocurrencies"]
 
 [features]
-default = []
+default = ["cpi"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
 cpi = ["no-entrypoint"]
+devnet = []
+mainnet = []
 
 [dependencies]
 anchor-gen = {version = "0.3.1"}
