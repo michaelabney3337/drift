@@ -10,6 +10,11 @@ repository = "https://github.com/mshizzle13/drift"
 keywords = ["drift"]
 categories = ["finance", "cryptography::cryptocurrencies"]
 
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "drift"
+path = "src/lib.rs"
+
 [features]
 default = ["cpi"]
 no-entrypoint = []
@@ -22,3 +27,5 @@ mainnet = []
 [dependencies]
 anchor-gen = {version = "0.3.1"}
 anchor-lang = {version = "0.30.1"}
+solana-program = "1.16"
+anchor-spl = "0.30.1"
