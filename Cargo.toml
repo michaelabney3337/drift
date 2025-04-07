@@ -10,6 +10,10 @@ repository = "https://github.com/mshizzle13/drift"
 keywords = ["drift"]
 categories = ["finance", "cryptography::cryptocurrencies"]
 
+[features]
+default = []
+cpi = ["no-entrypoint"]
+
 [dependencies]
 anchor-gen = {version = "0.3.1"}
 anchor-lang = {version = "0.30.1"}
