@@ -1,14 +1,8 @@
 [package]
 name = "drift"
-version = "2.92.0"
+version = "0.1.0"
+description = "Created with Anchor"
 edition = "2021"
-license = "MIT OR Apache-2.0"
-description = "anchor-gen generated crate for interacting with drift program"
-readme = "README.md"
-homepage = "https://github.com/mshizzle13/drift"
-repository = "https://github.com/mshizzle13/drift"
-keywords = ["drift"]
-categories = ["finance", "cryptography::cryptocurrencies"]
 
 [lib]
 crate-type = ["cdylib", "lib"]
@@ -24,7 +18,7 @@ devnet = []
 mainnet = []
 
 [dependencies]
-anchor-gen = {version = "0.3.1"}
-anchor-lang = {version = "0.30.1"}
+anchor-gen = "0.3.0"
+anchor-lang = "0.30.1"
 solana-program = "1.16"
 anchor-spl = "0.30.1"
